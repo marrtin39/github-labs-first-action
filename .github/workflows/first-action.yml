@@ -4,8 +4,12 @@ jobs:
   first-job: 
     runs-on: ubuntu-latest
     steps:
-      - name: print greeting
+      - name: print greeting 
         run: echo "Hello World!"
+      - name: mutliline commands
+        run:  |
+            echo "line 1 run"
+            echo "line 2 run"
       - name: print bye
         run: echo "GoodBye"
     
