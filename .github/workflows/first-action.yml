@@ -7,7 +7,7 @@ jobs:
       - name: print greeting 
         run: echo "Hello World!"
       - name: mutliline commands
-        run:  |
+        run: |
             echo "line 1 run"
             echo "line 2 run"
       - name: print bye
